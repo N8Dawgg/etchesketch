@@ -1,0 +1,20 @@
+.hbox, .vbox {
+    display: flex;
+    
+    gap: 1px;
+}
+
+.vbox {
+    flex-direction: column;
+}
+
+
+.bit {
+    height: 20px;
+    width: 20px;
+    background: rgb(255,255,200);
+}
+
+.dark {
+    background: rgb(0,0,50);
+}
